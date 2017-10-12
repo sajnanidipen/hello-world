@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function checkpwd(){
+            var num = document.getElementById("id1").value;
+            var n = num.length;
+            if (n>6){
+                alert("Good! Passwd Entered")
+                return true;
+            }
+            else{
+                alert("Passwd should be greater than 6 characters!");
+                return true;
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <form id="frm1">
+    <label for="Number:">Number:</label>
+    <input type="text" id="id1">
+    <br><br>
+    <button id="bt1" onclick="checkpwd();"> Check Number </button>
+    
+    </form>
+</body>
+</html>

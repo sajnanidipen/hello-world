@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function checkpwd(){
+            var pwd1 = document.getElementById("id1").value;
+            var pwd2 = document.getElementById("id2").value;
+            if (pwd1==pwd2){
+                alert("Password is Same")
+                return true;
+            }
+            else{
+                alert("Passwd is not same");
+                return true;
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <form id="frm1">
+    <input type="text" id="id1">
+    <br><br>
+    <input type="text" id="id2">
+    <br><br>
+    <button id="bt1" onclick="checkpwd();"> Check Number </button>
+    
+    </form>
+</body>
+</html>

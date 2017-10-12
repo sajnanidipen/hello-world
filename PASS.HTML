@@ -1,0 +1,24 @@
+<html>
+    <head>  
+        <script> 
+        function checknum(){
+            var n=document.form1.txt1.value;
+            var n2=document.form1.txt2.value;
+            if(n==n2){
+                alert("Welcome Prakash");
+            }
+            else{
+                alert("There is mistake in password");
+            }
+        
+        }
+        </script>
+    </head>
+    <body>
+        <form name="form1">
+         Enter Your Password <input id ="txt1" type="password"/></br>
+         Enter Your re-Password <input id ="txt2" type="Password"/></br>
+         <button onclick="checknum()">click</button>
+         </form>
+    </body>
+</html>

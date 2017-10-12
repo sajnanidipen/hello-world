@@ -1,0 +1,26 @@
+<html>
+    <head>  
+        <script> 
+        function checknum(){
+            var a=prompt("Enter your name");
+            if(isNaN(a))
+            {
+                alert("Enter a numbers only");
+                return false;
+
+            }
+            else{
+                alert("Welcome");
+                return true;
+            }
+        }
+        function Demo(){
+                var x=checknum();
+                document.write(x);
+        }
+        </script>
+    </head>
+    <body>
+         <button onclick="Demo()">click</button>
+    </body>
+</html>

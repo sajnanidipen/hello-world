@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     <style>
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
+   
+    <h1 align="center">Registration</h1>
+    
+    <form action="#" method="post">
+        <table align="center" border="2">
+        <tr><th>Name<input type="text" name="uname" ><br></th></tr>
+        <tr><th>Date Of Birth <input type="date" name="dob"></th></tr><br>
+        <tr><th>Age <input type="number" min="0" max="100" step="1" name="age" ></th><br></tr>
+        <tr><th>Password<input type="password" name="passwd"><br></th></tr>
+        <tr><th>Address <input type="textarea" name="add" ></th><br></tr>
+        <tr><th>Male<input type="radio" name="gender" value="Male" > Female<input type="radio" name="gender" value="Female" ></th><br></tr>
+        <tr><th>Extra Activities<br></tr>
+        <tr><th>NSS<input type="checkbox" name="achievement0" value="NSS" ></th><br></tr>
+        <tr><th>ACP<input type="checkbox" name="achievement1" value="ACP" ></th><br></tr>
+        <tr><th>LLLE<input type="checkbox" name="achievement2" value="LLLE" ></th><br></tr>
+        <tr><th>Sports<input type="checkbox" name="achievement3" value="Sports" ></th><br></tr>
+        <tr><th>Culture<input type="checkbox" name="achievement4" value="Culture" ></th><br></tr>
+        <tr><th>City 
+                <select>
+                <option value="mumbai">Mumbai</option>
+                <option value="delhi">Delhi</option>
+                <option value="chennai">Chennai</option>
+                <option value="kolkata">Kolkata</option>
+                </select>
+  </th><br></tr>
+  <tr><th>State 
+                <select>
+                <option value="maharashtra">Maharashtra</option>
+                <option value="delhi">Delhi</option>
+                <option value="tamilnadu">TamilNadu</option>
+                <option value="bengal">Bengal</option>
+                </select>
+  </th><br></tr>
+        <tr><th><input type="submit" value="submit"></th></tr>
+        <tr><th><input type="reset" value="reset"></th></tr>
+    </form>
+    
+</body>
+</html>

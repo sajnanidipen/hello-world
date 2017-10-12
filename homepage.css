@@ -1,0 +1,22 @@
+h1
+{
+    color:limegreen;
+    letter-spacing: "7px";
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: "2px";
+}
+
+p
+{
+    color: magenta;
+}
+h3
+{
+    color: blue;
+}
+li
+{
+    color: maroon;
+    text-transform: uppercase;
+}
